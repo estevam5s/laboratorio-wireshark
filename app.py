@@ -3639,14 +3639,6 @@ def educational_resources():
 
 # Componente principal
 def main():
-    # Configuração inicial
-    st.set_page_config(
-        page_title="CyberLab Wireshark",
-        page_icon="🔐",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
-    
     # Carrega CSS personalizado
     st.markdown("""
     <style>
